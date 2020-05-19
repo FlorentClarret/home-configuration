@@ -82,6 +82,13 @@ alias dkex="docker exec -i -t"
 # Stop and Remove all containers
 alias dkrmf='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 
+# tmux
+alias tmuxlast='tmux attach || tmux new-session'
+
+tmuxo () {
+    tmux attach -t $1 || tmux new -s $1
+}
+
 # miscellaneous
 alias myip="curl ifconfig.me"
 alias randpass="openssl rand -base64 24"
