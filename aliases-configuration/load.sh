@@ -6,6 +6,7 @@ source "$ALIAS_FOLDER/git/git.sh"
 source "$ALIAS_FOLDER/screen/screen.sh"
 source "$ALIAS_FOLDER/borg/borg-aliases.bash"
 source "$ALIAS_FOLDER/docker/docker-aliases.bash"
+source "$ALIAS_FOLDER/helios/helios.sh"
 
 source "$ALIAS_FOLDER/ssh/start-agent.sh"
 
