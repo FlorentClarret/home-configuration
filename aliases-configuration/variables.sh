@@ -34,6 +34,12 @@ shopt -s cdspell
 # Auto check if the window size changes
 shopt -s checkwinsize
 
+# Up Arrow
+bind '"\e[A": history-search-backward'
+
+# Down Arrow
+bind '"\e[B": history-search-forward'
+
 # Editor
 export EDITOR="/usr/bin/vim"
 
