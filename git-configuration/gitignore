@@ -15,7 +15,7 @@ Thumbs.db
 
 # Python files
 ## virtual env files
-venv/
+venv*
 .python-version
 
 __pycache__
